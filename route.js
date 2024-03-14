@@ -9,6 +9,7 @@ router.get("/search", getFriend);
 router.get("/health-check", (_, res) => {
   return res.status(200).json({
     status: 200,
+    api: "friends.api",
   });
 });
 
