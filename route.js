@@ -5,5 +5,6 @@ const router = Router();
 
 router.get("/", getFriend);
 router.post("/", createFriend);
+router.get("/search", getFriend);
 
 export default router;
